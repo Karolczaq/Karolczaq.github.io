@@ -49,6 +49,7 @@ body {
     margin-bottom: 1000px;
     margin-top: 800px;
     width: 350px;
+    padding-top: 10px
 }
 
 .container2 {
@@ -538,4 +539,11 @@ footer {
     color: rgb(255, 255, 255);
     text-align: center;
     animation: blink 1s infinite;
+}
+
+.clock {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: larger;
+    padding-top: 15px;
+    font-weight: bold;
 }
