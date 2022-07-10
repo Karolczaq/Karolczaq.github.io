@@ -138,7 +138,7 @@ body {
     max-width: 600px;
     margin: 0 auto;
     padding: 20px 65px;
-    padding-bottom: 0
+    padding-bottom: 30px;
 }
 
 .grid {
@@ -220,4 +220,134 @@ footer {
     font-weight: bold;
     padding-bottom: 10px;
     padding-top: 10px;
+}
+
+-html {
+    scroll-behavior: smooth
+}
+
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+html[data-theme=dark] body {
+    background-color: #000
+}
+
+html[data-theme=light] body {
+    background-color: #fff
+}
+
+.app {
+    overflow: hidden
+}
+
+html[data-theme=dark] .app {
+    background-color: #000;
+    color: #eee
+}
+
+html[data-theme=light] .app {
+    background-color: #fff;
+    color: #111
+}
+
+.nav .theme-button {
+    background: none;
+    outline: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: none;
+    font-size: inherit;
+    cursor: pointer;
+    padding: 0;
+    margin: 0 0 0 10px
+}
+
+.nav .theme-button-image {
+    height: 1em;
+    vertical-align: middle;
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2)
+}
+
+html[data-theme=dark] .nav a {
+    margin: 0 5px;
+    text-decoration: none;
+    color: #eee
+}
+
+html[data-theme=dark] .nav .router-link-exact-active {
+    border-bottom: 1px solid #eee
+}
+
+html[data-theme=light] .nav a {
+    margin: 0 5px;
+    text-decoration: none;
+    color: #111
+}
+
+html[data-theme=light] .nav .router-link-exact-active {
+    border-bottom: 1px solid #111
+}
+
+.footer {
+    text-align: center;
+    width: 100%;
+    padding: 3px;
+    font-size: 14px
+}
+
+html[data-theme=dark] ::-moz-selection {
+    background: #eee;
+    color: #000
+}
+
+html[data-theme=dark] ::selection {
+    background: #eee;
+    color: #000
+}
+
+html[data-theme=light] ::-moz-selection {
+    background: #111;
+    color: #fff
+}
+
+html[data-theme=light] ::selection {
+    background: #111;
+    color: #fff
+}
+
+.technologies-item[data-v-a26343de]:hover {
+    background: var(--bg-color-hover)
+}
+
+.technologies-item-logo[data-v-a26343de] {
+    height: 70px;
+    margin-bottom: 10px
+}
+
+html {
+    scroll-behavior: smooth
+}
+
+@keyframes typing {
+    0% {
+        width: 0ch
+    }
+    100% {
+        width: 20ch
+    }
+}
+
+@keyframes blink {
+    0%,
+    100% {
+        border-right: 2px solid transparent;
+    }
+    50% {
+        border-right: 2px solid #222;
+    }
 }
