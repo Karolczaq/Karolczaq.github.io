@@ -2,7 +2,7 @@ html,
 body {
     font-family: 'Montserrat', sans-serif;
     background: rgb(63, 81, 181);
-    background: linear-gradient(90deg, rgba(63, 81, 181, 1) 0%, rgba(255, 30, 99, 1) 125%);
+    background: linear-gradient(90deg, rgba(63, 81, 181, 1) 0%, rgb(233, 0, 70) 125%);
     position: absolute;
     display: flex;
     align-items: center;
@@ -13,6 +13,7 @@ body {
     height: 175%;
     margin-top: 15px;
     align-items: center;
+    overflow-x: hidden;
     -webkit-touch-callout: none;
     -webkit-user-select: none;
     -khtml-user-select: none;

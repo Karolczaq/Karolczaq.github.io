@@ -7,11 +7,12 @@ body {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    width: 1950px;
+    min-width: 1950px;
     height: 100vh;
     margin: 0;
     padding: 0;
     scrollbar-width: none;
+    -ms-overflow-style: none;
 }
 
 .containerTournament {
