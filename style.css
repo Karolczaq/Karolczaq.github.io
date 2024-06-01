@@ -10,7 +10,9 @@ body {
     flex-direction: column;
     flex-wrap: nowrap;
     width: 100vw;
-    height: 175%;
+    height: 100%;
+    overflow-y: hidden;
+    /*change height to 175% and remove overflow y*/
     overflow-x: hidden;
     margin-top: 15px;
     align-items: center;
@@ -54,6 +56,19 @@ body {
     border-radius: 5px;
     width: 550px;
     margin-bottom: 300px;
+}
+
+.containerTournament {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #252830;
+    padding: 20px 10px;
+    border-radius: 5px;
+    width: 1150px;
+    padding-top: 25px;
+    padding-bottom: 15px;
 }
 
 .landing {
