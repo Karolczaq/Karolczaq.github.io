@@ -23,7 +23,7 @@ body {
     flex-direction: column;
     background-color: #252830;
     border-radius: 5px;
-    max-width: 1100px;
+    max-width: fit-content;
     height: 575px;
     padding-top: 25px;
     padding-left: 75px;
