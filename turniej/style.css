@@ -21,11 +21,11 @@ body {
     flex-direction: column;
     background-color: #252830;
     border-radius: 5px;
-    width: 100%;
-    max-width: max-content;
+    width: 1150px;
+    height: 550px;
     padding-top: 25px;
     padding-left: 50px;
-    padding-bottom: 15px;
+    padding-bottom: 20px;
 }
 
 .landing {
