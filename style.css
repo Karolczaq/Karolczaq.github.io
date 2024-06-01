@@ -11,7 +11,6 @@ body {
     flex-wrap: nowrap;
     width: 100vw;
     height: 175%;
-    overflow-x: hidden;
     margin-top: 15px;
     align-items: center;
     -webkit-touch-callout: none;
