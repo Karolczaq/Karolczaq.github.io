@@ -78,11 +78,12 @@ body {
     -ms-flex-direction: column;
     -webkit-box-pack: center;
     -ms-flex-pack: center;
-    justify-content: center;
     width: 540px;
     height:100vh;
+    min-height: 900px;
     overflow: hidden;
-    margin-bottom: 100px;
+    margin-bottom: 200px;
+    margin-top: 75px;
 }
 
 .container h1 {
