@@ -7,7 +7,6 @@ body {
     flex-direction: column;
     flex-wrap: nowrap;
     width: 100vw;
-    height: 200%;
     align-items: center;
     overflow-x: hidden;
     -webkit-touch-callout: none;
@@ -48,8 +47,6 @@ body {
     background-color: #fafafa;
     border-radius: 5px;
     width: 445px;
-    margin-bottom: 300px;
-    margin-top:300px;
 }
 
 .containerTournament {
@@ -82,8 +79,28 @@ body {
     height:100vh;
     min-height: 900px;
     overflow: hidden;
-    margin-bottom: 200px;
     margin-top: 75px;
+}
+
+.gridsection {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    width: 540px;
+    height:100vh;
+    min-height: 900px;
+    overflow: hidden;
+    margin-top: 75px;
+    justify-content: center;
 }
 
 .container h1 {
@@ -192,13 +209,16 @@ body {
     font-family: 'Consolas';
     border-radius: 50px;
     margin-bottom: 3px;
+    animation: appear 0s 500ms forwards;
+    visibility: hidden;
 }
 
 .text-typing p {
     margin: 0px;
     white-space: nowrap;
     overflow: hidden;
-    animation: typing 2s steps(19, end) forwards, blink 1s infinite;
+    animation: typing 2200ms steps(19, end) forwards, blink 1s infinite;
+    animation-delay: 500ms;
 }
 
 footer {
@@ -258,7 +278,7 @@ html {
         width: 0ch
     }
     100% {
-        width: 20ch
+        width: 19ch
     }
 }
 
@@ -271,3 +291,32 @@ html {
         border-right: 2px solid #222;
     }
 }
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeInFromNone {
+    0% {
+        display: none;
+        opacity: 0;
+    }
+
+    1% {
+        display: block;
+        opacity: 0;
+    }
+
+    100% {
+        display: block;
+        opacity: 1;
+    }
+}
+@keyframes appear {
+    to   { visibility: visible; }
+  }
