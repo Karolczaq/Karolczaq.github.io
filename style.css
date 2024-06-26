@@ -320,3 +320,10 @@ html {
 @keyframes appear {
     to   { visibility: visible; }
   }
+
+  @media only screen and (max-width: 620px) {
+    /* For mobile phones: */
+    .container, .main, .right {
+      width: 70%;
+    }
+  }
