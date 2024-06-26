@@ -17,11 +17,11 @@
         <div class="container">
             <div id="zegar" class="clock"></div>
             <div class="separator"></div>
-            <div id="kalendarz" class="kalendarz"></div>
+            <div id="kalendarz" class="calendar"></div>
         </div>
         <div class="container"> <img src="assets/pizza.svg" width="200" height="200" alt="" class="thecard">
             <h1 class="subtitle"> Hawajska</h1>
-                <svg xmlns="http://www.w3.org/2000/svg" focusable="true" width="50px" height="50px" viewBox="0 0 24 24" class="arrow-down" cursor="pointer" onClick="document.getElementById('a').scrollIntoView();">
+                <svg xmlns="http://www.w3.org/2000/svg" focusable="true" width="50px" height="50px" viewBox="0 0 24 24" class="arrow-down" cursor="pointer" onClick="document.getElementById('t').scrollIntoView();">
                     <path d="M5.843 9.593L11.5 15.25l5.657-5.657l-.707-.707l-4.95 4.95l-4.95-4.95l-.707.707z " transform="translate(-11 -11) scale(2)"></path>
                 </svg>
             <div class="separator"></div>
@@ -29,26 +29,31 @@
                 <p class="copy">© 2024 Karol Krasoń </p>
             </div>
         </div>
-        
-        
         <div class="container">
+            <div class="list">
+                <p onClick="document.getElementById('w').scrollIntoView();">Weather App</p> <p onClick="document.getElementById('t').scrollIntoView();">Technologies</p>
+            </div>
             <div class="separator"></div>
         </div>        
     </section>
-    </div>
-    <div class="gridsection">
-    <section class="container2">
-        <div class="technologies-content">
-            <div class="grid" class="unselect">
-                <a href="https://github.com/Karolczaq" class="technologies-item" data-v-a26343de="" data-v-65e7c13e="" style="--bg-color: #484848; --bg-color-hover:#484848DD; --fg-color:#ffffff;"><img src="assets/GitHub-Mark-120px-plus.png" alt="GitHub" class="technologies-item-logo" data-v-a26343de=""> GitHub</a>
-                <a href="https://developer.mozilla.org/pl/docs/Learn/JavaScript/First_steps/What_is_JavaScript" class="technologies-item" data-v-a26343de="" data-v-65e7c13e="" style="--bg-color: #000000; --bg-color-hover:#000000dd; --fg-color:#ffffff;"><img src="assets/jslogo.png" alt="Tekstury" class="technologies-item-logo" data-v-a26343de=""> JavaScript</a>
-            </div>
+    <section class="Weather" id="w">
+        <div class="containerWeather">
+            Here will be my weather app.
         </div>
     </section>
-    </div>
+    <section class="gridsection">
+        <section class="container2">
+            <div class="technologies-content">
+                <div class="grid" class="unselect">
+                    <a href="https://github.com/Karolczaq" class="technologies-item" style="--bg-color: #484848; --bg-color-hover:#484848DD; --fg-color:#ffffff;"><img src="assets/GitHub-Mark-120px-plus.png" alt="GitHub" class="technologies-item-logo"> GitHub</a>
+                    <a href="https://developer.mozilla.org/pl/docs/Learn/JavaScript/First_steps/What_is_JavaScript" class="technologies-item" style="--bg-color: #000000; --bg-color-hover:#000000dd; --fg-color:#ffffff;"><img src="assets/jslogo.png" alt="Tekstury" class="technologies-item-logo"> JavaScript</a>
+                </div>
+            </div>
+        </section>
+    </section>
     
     <footer>
-        <div class="unselect" id="a">
+        <div class="unselect" id="t">
             <p class="footernapis">koniec.</p>
         </div>
     </footer>
