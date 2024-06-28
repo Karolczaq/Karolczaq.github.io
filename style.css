@@ -18,6 +18,33 @@ body {
     margin-bottom: 0;
 }
 
+div {
+    transition: background-color 0.3s, color 0.1s;
+}
+
+.dark-mode {
+    background-color: #282828 !important;
+    color: white !important;
+    transition: background-color 0.3s, color 0.1s
+  }
+
+/*toggler default style */
+.darkmodetoggler {
+    position:fixed;
+    left: 20px;
+    top: 20px;
+    background-color: #282828;
+    border-radius: 5px;
+    padding: 10px;
+    transition: 0.5s;
+}
+
+/*toggler when in dark mode */
+.toggler-dark-mode {
+    background-color: #fafafa !important;
+    transition: 0.3s;
+}
+
 .container {
     display: flex;
     align-items: center;
@@ -378,5 +405,9 @@ html {
         grid-template-columns: repeat(2,38.55vw);
         grid-gap: 2.9vw;
         padding-bottom: 4.5vw;
+    }
+    .darkmodetoggler{
+        left: 2.5vw;
+        top: 5vw;   
     }
 }
