@@ -10,9 +10,11 @@
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="assets/favicon.png">
     <script type="text/javascript" src="timer.js"></script>
+    <script type="text/javascript" src="darkmode.js"></script>
 </head>
 
-<body onload="odliczanie();"> 
+<body onload="odliczanie();">
+    <img id="toggler" src="assets/moonicon.svg" class="darkmodetoggler" width="40px" onclick="darkmode()"></img> 
     <section class="landing">
         <div class="container">
             <div id="zegar" class="clock"></div>
@@ -24,6 +26,7 @@
                 <svg xmlns="http://www.w3.org/2000/svg" focusable="true" width="50px" height="50px" viewBox="0 0 24 24" class="arrow-down" cursor="pointer" onClick="document.getElementById('t').scrollIntoView();">
                     <path d="M5.843 9.593L11.5 15.25l5.657-5.657l-.707-.707l-4.95 4.95l-4.95-4.95l-.707.707z " transform="translate(-11 -11) scale(2)"></path>
                 </svg>
+                
             <div class="separator"></div>
             <div class="text-typing">
                 <p class="copy">© 2024 Karol Krasoń </p>
@@ -42,14 +45,14 @@
         </div>
     </section>
     <section class="gridsection">
-        <section class="container2">
+        <div class="container2">
             <div class="technologies-content">
                 <div class="grid" class="unselect">
                     <a href="https://github.com/Karolczaq" class="technologies-item" style="--bg-color: #484848; --bg-color-hover:#484848DD; --fg-color:#ffffff;"><img src="assets/GitHub-Mark-120px-plus.png" alt="GitHub" class="technologies-item-logo"> GitHub</a>
                     <a href="https://developer.mozilla.org/pl/docs/Learn/JavaScript/First_steps/What_is_JavaScript" class="technologies-item" style="--bg-color: #000000; --bg-color-hover:#000000dd; --fg-color:#ffffff;"><img src="assets/jslogo.png" alt="Tekstury" class="technologies-item-logo"> JavaScript</a>
                 </div>
             </div>
-        </section>
+        </div>
     </section>
     
     <footer>
