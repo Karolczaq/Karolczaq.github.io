@@ -1,3 +1,4 @@
+var darkmodestatus = 0;
 function odliczanie() {
     var dzisiaj = new Date();
 
@@ -20,5 +21,12 @@ function odliczanie() {
     document.getElementById("kalendarz").innerHTML =
         dzien + "/" + miesiac + "/" + rok;
 
+    if (darkmodestatus==0){
+        if (godzina >= 20 || godzina < 6){
+            darkmode();
+            darkmodestatus = 1;
+        }
+    }
     setTimeout("odliczanie()", 1000);
 }
+

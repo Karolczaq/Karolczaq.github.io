@@ -25,8 +25,13 @@ div {
 .dark-mode {
     background-color: #282828 !important;
     color: white !important;
-    transition: background-color 0.3s, color 0.1s
+    fill: white !important;
+    transition: background-color 0.3s, color 0.1s, fill 0.1s;
   }
+
+.dark-mode .arrow-down {
+    transition: 2s;
+}
 
 /*toggler default style */
 .darkmodetoggler {

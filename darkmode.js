@@ -1,5 +1,5 @@
 function darkmode() {
-    var containers = ['.container', '.containerWeather', '.container2'];
+    var containers = ['.container', '.containerWeather', '.container2', '.arrow-down'];
     var toggler = document.getElementById("toggler");
     var togglerSrc = toggler.getAttribute("src");
     toggler.classList.toggle('toggler-dark-mode');
