@@ -4,5 +4,6 @@
 
 It also has a <a href="https://github.com/Karolczaq/Karolczaq.github.io/tree/main/turniej">turniej</a> subpage which was created to display bracket of a Brawl Stars tournament hosted at my school.
 ### List of things to do:
+- [x] Dark Mode
 - [ ] Weather App
 - [ ] Sidebar Menu
